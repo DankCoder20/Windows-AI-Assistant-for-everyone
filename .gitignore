@@ -1,1 +1,88 @@
+############################
+# Python bytecode/cache
+############################
+__pycache__/
+*.py[cod]
+*$py.class
+
+############################
+# Packaging / distributions
+############################
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+__pypackages__/
+
+############################
+# PyInstaller artifacts
+############################
+# Normally spec files can be ignored, but we keep WindowsAI.spec tracked
+*.spec
+!WindowsAI.spec
+*.manifest
+warn-*.txt
+*.toc
+*.pkg
+*.pyz
+
+############################
+# Virtual environments
+############################
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+############################
+# Logs and runtime files
+############################
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+############################
+# Testing / coverage / type checkers
+############################
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+pytestdebug.log
+
+############################
+# IDE / Editor
+############################
+.vscode/
+.idea/
+*.code-workspace
+
+############################
+# Environment files
+############################
 .env
+.env.*
+!.env.example
+!docs.env.example
+
+############################
+# OS-specific files
+############################
+.DS_Store
+Thumbs.db
+desktop.ini
+*.lnk
+
+############################
+# Misc
+############################
+*.bak
+*.tmp
