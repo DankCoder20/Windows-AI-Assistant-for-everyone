@@ -1,0 +1,16 @@
+2025-09-26 14:19:18 - INFO - USER_COMMAND: how are you
+2025-09-26 14:19:18 - INFO - PARSED_ACTION: {}
+2025-09-26 14:19:18 - WARNING - VALIDATION_ERROR: Unsupported action: None | Details: {}
+2025-09-26 14:25:04 - INFO - USER_COMMAND: delete saksham from desktop
+2025-09-26 14:25:04 - INFO - PARSED_ACTION: {'action': 'delete_folder', 'path': 'Desktop', 'source': 'saksham'}
+2025-09-26 14:25:07 - INFO - USER_COMMAND: delete saksham from desktop
+2025-09-26 14:25:07 - INFO - PARSED_ACTION: {'action': 'delete_folder', 'path': 'C:\\Users\\Username\\Desktop\\saksham'}
+2025-09-26 14:25:07 - WARNING - VALIDATION_ERROR: Path not allowed: C:\Users\Username\Desktop\saksham | Details: {'action': 'delete_folder', 'path': 'C:\\Users\\Username\\Desktop\\saksham'}
+2025-09-26 14:25:21 - INFO - USER_COMMAND: delete WARP from desktop
+2025-09-26 14:25:21 - INFO - PARSED_ACTION: {'action': 'delete_folder', 'path': 'desktop', 'source': 'WARP'}
+2025-09-26 14:25:21 - INFO - ACTION_START: delete_folder | Details: {'path': 'C:\\Users\\Shankar_N\\Desktop\\WARP', 'confirmed': True}
+2025-09-26 14:25:21 - INFO - ACTION_SUCCESS: delete_folder | Details: {'path': 'C:\\Users\\Shankar_N\\Desktop\\WARP'}
+2025-09-26 14:25:38 - INFO - USER_COMMAND: delete SAKSHAM from desktop
+2025-09-26 14:25:38 - INFO - PARSED_ACTION: {'action': 'delete_folder', 'path': 'Desktop', 'source': 'SAKSHAM'}
+2025-09-26 14:25:38 - INFO - ACTION_START: delete_folder | Details: {'path': 'C:\\Users\\Shankar_N\\Desktop\\SAKSHAM', 'confirmed': True}
+2025-09-26 14:25:38 - INFO - ACTION_SUCCESS: delete_folder | Details: {'path': 'C:\\Users\\Shankar_N\\Desktop\\SAKSHAM'}
